@@ -57,7 +57,7 @@ def galaxy(galaxy_name: str, *objects_found: str, pluto_is_planet = True, **plan
       
   """
   #print summary of info in arguments
-  print(f"Your galaxy is the {galaxy_name}! There are many things contained within the {galaxy_name} including: {objects_found}. Some people dont believe that pluto is a planet and some do. If False you don't, if True, you do! What you think: {pluto_is_planet}. There are more than {len(planets.items())} planets in the {galaxy_name} but the colors of the {len(planets.items())} planets selected are: ")
+  print(f"Your galaxy is the {galaxy_name}! There are many things contained within the {galaxy_name} including: {objects_found}. Some people dont believe that pluto is a planet and some do. If False you don't, if True, you do! What you think: {pluto_is_planet}. There are a lot of planets in the {galaxy_name} but we will discuss the {len(planets.items())} planets that you picked. The {len(planets.items())} planets selected and their colors are: ")
   for key, value in planets.items():
     print(f"{key} - {value}")
 #calling galaxy function with inputs
