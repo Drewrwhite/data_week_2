@@ -37,7 +37,7 @@ class Shoe: # create shoe class
     Returns:
         String : with Euro sizing
     """
-    print ()str(self.US_size + 33) + " Euro size"
+    print(str(self.US_size + 33) + " Euro size")
 
 # two "Shoe" instances to test euro size
 vans = Shoe(11, "black", False)
