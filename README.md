@@ -2,7 +2,7 @@
 
 #### By _**Drew White**_
 
-#### _Code review for week 2 of Data Engineering_
+#### _Code review for week 2 of Data Engineering: Intermediate Python_
 
 ## Technologies Used
 
