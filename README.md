@@ -11,7 +11,7 @@
 
 ## Description
 
- _Python code review for week 1 of Data Engineering showing the use of lists, dictionaries, tuples, functions and loops._ 
+ _Python code review for week 2 of Data Engineering showing the use of functions, exception handling, **args, **kwargs, class, methods, lambda functions, type hints, and doc strings ._ 
 
 - `fourth_place()`-
 - _Takes list as and argument and returns 4th item in list. If list has less than 4 items function uses try/except and returns string stating list has less than 4 items_
