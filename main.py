@@ -12,11 +12,7 @@ def fourth_place(list1: list):
     except IndexError:
         print("There is less than 4 items in this list")
 
-
-def subtracter_lambda(x, y): return x - y
-
-"""lambda func take two integers subtracts y from x and returns answer 
-    """
+subtracter_lambda = lambda x, y: x - y
+print(subtracter_lambda(10,6))
 
 
-print(subtracter_lambda(10, 6))
