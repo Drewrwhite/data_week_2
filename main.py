@@ -43,6 +43,22 @@ nike = Shoe(10, "green", False)
 vans.euro_size()
 nike.euro_size()
 
+def galaxy(galaxy_name: str, *objects_found: str, pluto_is_planet = True, **planets: str) -> None:
+  """ galaxy takes arguments and creates paragraph summarizing facts of given info
+
+  Args:
+      galaxy_name (str): name of galaxy
+      *objects_found (str): lists objects found in galaxy
+      pluto_is_planet (bool, optional): Defaults to True. states pluto is planet
+      **planets (str): takes value pairs of key as planet and value as color
+      
+  """
+  #print summary of info in arguments
+  print(f"Your galaxy is the {galaxy_name}! There are many things contained within the {galaxy_name} including: {objects_found}. Some people dont believe that pluto is a planet and some do. If False you don't, if True, you do! What you think: {pluto_is_planet}. There are more than {len(planets.items())} planets in the {galaxy_name} but the colors of the {len(planets.items())} planets selected are: ")
+  for key, value in planets.items():
+    print(f"{key} - {value}")
+#calling galaxy function with inputs
+galaxy("Milky Way Galaxy", "sandworms", "spice", "asteroids", "poison snoopers", "ornihopters", Arrakis = "red and tan", Caladan = "azure and crimson", Poritrin = "tan", Richese = "green an and blue")
 
 
 
