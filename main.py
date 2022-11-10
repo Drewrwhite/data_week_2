@@ -1,4 +1,7 @@
-def fourth_place(list1: list):
+people = ["Drew", "Brandyne", "Burke", "Charlie"]
+doggos = ["Aengus", "Bear", "Cali"]
+
+def fourth_place(list1: list) -> str:
     """fourth_place will return 4th item on list and if list has less, filter out IndexError and return string
 
     Args:
@@ -17,7 +20,7 @@ subtracter_lambda = lambda x, y: x - y
 print(subtracter_lambda(10,6))
 
 class Shoe: # create shoe class
-  def __init__(self, US_size: int, color: str, smelly = False: bool):
+  def __init__(self, US_size: int, color: str, smelly = False) -> None:
     """ Create shoe class that takes size, color and smelly
 
     Args:
@@ -28,7 +31,7 @@ class Shoe: # create shoe class
     self.US_size = US_size
     self.color = color
     self.smelly = smelly
-  def euro_size(self):
+  def euro_size(self) -> None:
     """ takes US_size and converts to Euro size
 
     Returns:
